@@ -4,7 +4,7 @@
 <!-- Set the Head -->
     <head>
         <meta charset="UTF-8">
-        <title>Can't see a thing through these clouds!</title>
+        <title>This or That!</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -31,41 +31,54 @@
                     Visualizations
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Max Temperature</a>
-                    <a class="dropdown-item" href="#">Humidity</a>
-                    <a class="dropdown-item disabled">Cloudiness</a>
-                    <a class="dropdown-item" href="#">Wind Speed</a>
+                    <a class="dropdown-item" href="Temp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href ="Wind.html">Wind Speed</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Graph Comparison</a>
+                    <a class="nav-link disabled">Graph Comparison</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Data</a>
+                    <a class="nav-link" href="Data.html">Data</a>
                 </li>
               </ul>
             </div>
           </nav>
         <div class = "container">
             <div class = "row">
-                <h1>Latitude vs. Cloudiness</h1>
+                <h1>
+                    Comparing the graphs!
+                </h1>
             </div>
             <div class = "row">
+            <h5>
+                Click any of the images to go get more detail on that chart.
+            </h5>
+            </div>
+            <br>
+            <div class = "row">
                 <div class = "col">
-                    <img src = "..\Resources\assets\images\Fig3.png">
+                    <h6>Latitude vs Max Temperature</h6>
+                    <a href = "Temp.html"><img src = "..\Resources\assets\images\Fig1.png" alt = "Latitude vs Max Temp" style = "width:520px;height:390px"></a>
                 </div>
                 <div class = "col">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <p>These results speak for themselves. There is no clear correlation between latitude and cloudiness.</p>
+                    <h6>Latitude vs Humidity</h6>
+                    <a href = "Humidity.html"><img src = "..\Resources\assets\images\Fig2.png" alt = "Latitude vs Humidity" style = "width:520px;height:390px"></a>
                 </div>
             </div>
-        </div>
+            <br>
+            <div class = "row">
+                <div class = "col">
+                    <h6>Latitude vs Cloudiness</h6>
+                    <a href = "Cloudiness.html"><img src = "..\Resources\assets\images\Fig3.png" alt = "Latitude vs Cloudiness" style = "width:520px;height:390px"></a>
+                </div>
+                <div class = "col">
+                    <h6>Latitude vs Wind Speed</h6>
+                    <a href = "Wind.html"><img src = "..\Resources\assets\images\Fig2.png" alt = "Latitude vs Wind Speed" style = "width:520px;height:390px"></a>
+                </div>
+            </div>
     </body>
 
 </html>
