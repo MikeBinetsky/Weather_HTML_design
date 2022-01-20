@@ -1,4 +1,4 @@
-# Web-Design-Challenge
+# Weather HTML Design
 
 This is my web design challenge!
 
